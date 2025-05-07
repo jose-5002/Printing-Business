@@ -1,0 +1,99 @@
+body{
+    background:#001F54 ;
+}
+h1, .Card-title{
+    text-align: center;
+}
+h2{
+    color: #FF69B4;
+}
+.Card2{
+    border: 1px solid hsl(0, 0%, 23%);
+    border-radius: 10px;
+    box-shadow: 5px 5px 5px #FF69B4;
+    padding:15px;
+    margin:20px;
+    min-width: 300px;
+    text-align: center;
+
+}
+.Card{
+    border: 1px solid hsl(0, 0%, 23%);
+    border-radius: 10px;
+    box-shadow: 5px 5px 5px #FF69B4;
+    padding:15px;
+    margin:20px;
+    max-width: 250px;
+    min-width: 150px;
+    text-align: center;
+    display:inline-block
+}
+#root{
+    background:linear-gradient(to bottom, #001F54, #cd6297, #001F54);
+    color: aliceblue;
+    margin:1px;
+}
+.Header{
+    background:#001F54;
+    color:#ff69b4;
+    display:flex;
+    text-align:center
+}
+.Card-img{
+     height: auto;
+     max-width: 50%;
+     border-radius:50%;
+}
+.Section, .Section1{
+    background: #001F54;
+    color: #d3d3d3;
+    border:2px solid hsl(0, 0%, 23%);
+    box-shadow:5px 5px 5px #FF69B4 0.1;
+    margin:20px ;
+    border-radius: 5px;
+    padding:10px;
+    justify-content: center;
+}
+.Footer{
+    text-align: center;
+    /* background: #FF69B4; */
+    color: #d3d3d3;
+    max-width: 500px;
+    max-height: 15px;
+    margin: auto;
+    font-size:smaller;
+}
+p{
+    font-family: Roboto;
+}
+.logo{
+    max-width: 100px;
+    max-height: 100px;
+    border-radius: 50px;
+}
+.navbutton{
+    margin-bottom: 1px;
+    text-align: center;
+    display: flex;
+    flex-wrap: wrap;
+    padding: 0 20px;
+    justify-content: center;
+}
+.cardCont{
+    margin:0 auto;
+    padding:0 20px;
+    display:flex;
+    flex-wrap: wrap;
+    justify-content: center;
+    gap: auto;
+}
+button{
+    border: 1px solid #001F54;
+    border-radius: 5px;
+    background: #FF69B4;
+    color: #001F54;
+    padding: 7px;
+}
+sup{
+    color: red;
+}

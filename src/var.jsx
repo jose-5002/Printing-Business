@@ -1,0 +1,4 @@
+export const card1title = "Printing Services";
+export const card1det = "High-quality printing services for all your needs: business cards, brochures, flyers, posters, and more.Experience vibrant colors and professional finishes that make a lasting impression.";
+export const card2det = "Strategic branding solutions to define and elevate your business. From logo design to visual identity development, we help you create a memorable and impactful brand presence."
+export const card3det ="Convinient access to select government services, efficient photocopying for your documents and reliable support for other general services." 
