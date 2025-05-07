@@ -11,9 +11,9 @@ function Services() {
     <div className="Section1">
       <h1>Services</h1>
       <div className="cardCont">
-        <Card2 image={img1} title={data.card1title} det="Welcome, we are pleased you have decided to learn more." />
+        <Card2 image={img1} title={data.card1title} det="Need to bring your ideas to life on paper? Look no further! We offer a comprehensive range of high-quality printing services to meet all your personal and professional needs. From vibrant marketing materials to personalized stationery, we're dedicated to delivering exceptional results with speed and precision. Explore our services below and let's get printing!" />
         <Card2 image={img2} title="Branding Services" det={data.card2det} />
-        <Card
+        <Card2
           image={img1}
           title="Computer & General Services"
           det={data.card3det}
